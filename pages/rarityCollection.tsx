@@ -31,7 +31,7 @@ const rarityCollection: NextPage = () => {
                     <Card.Title>Card Title</Card.Title>
                     <Card.Text>
                       Some quick example text to build on the card title and
-                      make up the bulk of the card's content.
+                      make up the bulk of the cards content.
                     </Card.Text>
                     <Button variant="primary">MINT NFT</Button>
                   </Card.Body>
@@ -43,7 +43,7 @@ const rarityCollection: NextPage = () => {
                     <Card.Title>Card Title</Card.Title>
                     <Card.Text>
                       Some quick example text to build on the card title and
-                      make up the bulk of the card's content.
+                      make up the bulk of the cards content.
                     </Card.Text>
                     <Button variant="primary">MINT NFT</Button>
                   </Card.Body>
