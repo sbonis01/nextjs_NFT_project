@@ -2,7 +2,6 @@
   "name": "1st-collection",
     "version": "0.0.1",
     "author": "Steve and Dave",
-    "repository": "https://github.com/sbonis01/nextjs_NFT_project",
     "files": [
         "node_modules",
         "pages",
