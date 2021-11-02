@@ -37,7 +37,7 @@ function MyApp({ Component, pageProps }: AppProps) {
           <Navbar.Toggle aria-controls="responsive-navbar-nav" />
           <Navbar.Collapse id="responsive-navbar-nav">
             <Nav className="me-auto">
-              <Nav.Link href="#">ABOUT</Nav.Link>
+              <Nav.Link href="/about">ABOUT</Nav.Link>
               <Nav.Link href="/rarityCollection">RARITY/COLLECTION</Nav.Link>
               <Nav.Link href="/roadmap">ROADMAP</Nav.Link>
             </Nav>
