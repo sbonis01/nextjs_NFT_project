@@ -25,7 +25,7 @@ const roadmap: NextPage = () => {
           <h1 className={styles.center}>ROADMAP</h1>
           <div className={styles.roadmapContainer}>
             <div>
-              <img
+              <Image
                 className={styles.img}
                 src="roadmap-placeholder.jpg"
                 alt="Second slide"
