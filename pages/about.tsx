@@ -12,7 +12,7 @@ import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
 
 // TODO: FIX THIS 'const Home: NextPage' to about page
-const aboout: NextPage = () => {
+const about: NextPage = () => {
   return (
     <div className={styles.container}>
 
@@ -47,4 +47,4 @@ const aboout: NextPage = () => {
   );
 };
 
-export default aboout;
+export default about;
