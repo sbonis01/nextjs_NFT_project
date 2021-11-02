@@ -2,8 +2,19 @@ import '../styles/globals.css'
 import "bootstrap/dist/css/bootstrap.min.css";
 import type { AppProps } from 'next/app'
 
+import Head from 'next/head'
+import Image from 'next/image'
+import styles from "../styles/Home.module.css";
+import Container from "react-bootstrap/Container";
+import Navbar from "react-bootstrap/Navbar";
+import Nav from "react-bootstrap/Nav";
+import Button from "react-bootstrap/Button";
+import Row from "react-bootstrap/Row";
+import Col from "react-bootstrap/Col";
+
 function MyApp({ Component, pageProps }: AppProps) {
   return (
+  	<div className={styles.container}>
   	  // Head 
   	  <Head>
         <title>About</title>
@@ -54,6 +65,7 @@ function MyApp({ Component, pageProps }: AppProps) {
           </span>
         </a>
       </footer>
+    </div>
 
   	);
 };
