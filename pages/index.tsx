@@ -15,7 +15,7 @@ import Carousel from "react-bootstrap/Carousel";
 import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
 
-const Home: NextPage = () => {
+const index: NextPage = () => {
   return (
     <div className={styles.container}>
       
@@ -78,4 +78,4 @@ const Home: NextPage = () => {
   );
 };
 
-export default Home
+export default index
